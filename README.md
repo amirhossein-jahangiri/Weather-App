@@ -1,16 +1,81 @@
-# weather_app
+# 🌦️ Flutter Weather App
 
-Weather Application, Made with Flutter
+A modern weather app built with Flutter that automatically fetches the user's current location using GPS and displays live weather data from an external API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🌍 **Automatic Location Detection** using `geolocator`
+- ☀️ **Real-Time Weather Data** via HTTP APIs
+- 🎨 **Dark and Light Themes** support
+- 🔄 **Portrait and Landscape Modes** fully supported
+- ⚙️ **Error Handling** with user-friendly messages
+- 📦 **State Management** using `Provider`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** (latest stable)
+- `geolocator` – For GPS/location services
+- `http` – For REST API calls
+- `provider` – For reactive state management
+- Responsive UI with both `portrait` and `landscape` orientation
+- Support for both `light` and `dark` themes
+
+---
+
+## 📷 Screenshots
+
+| Light Theme | Dark Theme |
+|-------------|------------|
+| *[Add screenshot]* | *[Add screenshot]* |
+
+---
+
+## ✨ Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/flutter-weather-app.git
+cd flutter-weather-app
+```
+
+### 2. Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Run the App
+
+```bash
+flutter run
+```
+
+Make sure your emulator or real device has location services enabled.
+
+---
+
+## ⚠️ Permissions Required
+
+- Location permission (`while in use` or `always`)
+- GPS must be enabled manually if not available
+
+---
+
+## 👤 Developer
+
+**Amirhossein Jahangiri**  
+🌐 [iamjahangiri.ir](https://www.iamjahangiri.ir)
+
+If you find this project helpful, please ⭐ the repository and share it!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
