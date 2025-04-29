@@ -30,7 +30,7 @@ A modern weather app built with Flutter that automatically fetches the user's cu
 
 | Light Theme | Dark Theme |
 |-------------|------------|
-| *[Add screenshot]* | *[Add screenshot]* |
+| ![Light](./screenshots/shot-light.jpg) | ![Dark](./screenshots/shot-dark.jpg) |
 
 ---
 
